@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\SHREYAS K S\\Desktop\\Distracted Driver Detection\\models\\cnn.model"
+all_model_checkpoint_paths: "C:\\Users\\SHREYAS K S\\Desktop\\Distracted Driver Detection\\models\\cnn.model"
