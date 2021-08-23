@@ -1,0 +1,13 @@
+body, html 
+{
+    height: 100%;
+}
+.bg 
+{
+    /* background-image: url("{{ url_for('static', filename = 'index.css') }}"); */
+    background-color:black;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

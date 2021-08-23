@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Add Product</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+
+<body style="background-color: aquamarine;">
+    <div class="container">
+        <div class="col-md-12" style="padding-left: 150px;padding-top: 240px;">
+            <div class="panel panel-primary">
+                <div class="panel-heading" style="text-align: center;">
+                    <h3>Update The Below Form to Update The Product Details</h3>
+                </div>
+                <div class="panel-body">
+                    <form role="Form" method="POST" action="/updateproductbackend/{{res[0]}}" accept-charset="UTF-8">
+                        <div class="form-group">
+                            <label for="fname">Product Name</label>
+                            <input type="text" id="name" class="form-control" name="pname" value="{{res[1]}}">
+                        </div>
+                        <div class="form-group">
+                            <label for="fname">Product Description</label>
+                            <input type="text" id="pnumber" class="form-control" name="pdes"
+                            value="{{res[2]}}">
+                        </div>
+                        <div class="form-group">
+                            <label for="fname">Product Price</label>
+                            <input type="text" id="sname" class="form-control" name="pprice"
+                            value="{{res[3]}}">
+                        </div>
+
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-primary btn-lg" id="submitbtn" name="submit">Update Item</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
